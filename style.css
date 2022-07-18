@@ -281,3 +281,51 @@ p {
   font-weight: var(--whight-extra-bold);
   font-size: var(--font-small);
 }
+
+/* Customer Center */
+#customer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-light-beige);
+  padding: 30px;
+}
+
+.customer__phone {
+  padding: 0 48px;
+}
+
+.customer__phone i {
+  font-size: 27px;
+  color: var(--color-dark-brown);
+}
+
+.customer__phone h3 {
+  font-size: 22px;
+  padding: 12px;
+  margin-top: 12px;
+  color: var(--color-dark-beige);
+}
+
+.customer__phone p {
+  text-align: start;
+  line-height: 1.5em;
+  font-size: 15px;
+  margin: auto;
+}
+
+.customer__bank {
+  padding: 0 48px;
+}
+
+.customer__bank i {
+  font-size: 27px;
+  color: var(--color-dark-brown);
+}
+
+.customer__bank p {
+  padding-top: 32px;
+  text-align: start;
+  line-height: 1.5em;
+  font-size: 15px;
+  margin: auto;
+}
