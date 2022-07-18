@@ -8,7 +8,7 @@
   --color-grey: #616161;
   --color-light-grey: #7c7979;
   --color-light-beige: #ece3d446;
-  --color-beige: #d4c4a7;
+  --color-beige: #d4c4a788;
   --color-medium-beige: #cbbca0; /*Navbar*/
   --color-dark-beige: #afa186;
   --color-brown: #90794b;
@@ -236,4 +236,48 @@ p {
   margin-top: 52px;
   border: 2px solid var(--color-dark-beige);
   color: var(--color-dark-beige);
+}
+
+/* Best Item */
+.best__categories {
+  margin: 30px;
+  padding-top: 24px;
+}
+
+.category__btn {
+  background-color: var(--color-beige);
+  color: var(--color-brown);
+  border-radius: 12px;
+  font-size: var(--font-small);
+  margin: 0 4px;
+  padding: 8px 20px;
+  position: relative;
+}
+
+.category__btn.active,
+.category__btn:hover {
+  background-color: var(--color-dark-beige);
+  color: var(--color-white);
+  font-style: oblique;
+}
+
+.best__contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.best__item__image {
+  padding: 24px 12px;
+}
+
+.best__item__image h3 {
+  text-align: start;
+  padding: 8px 0;
+}
+
+.best__item__image p {
+  text-align: start;
+  font-weight: var(--whight-extra-bold);
+  font-size: var(--font-small);
 }
