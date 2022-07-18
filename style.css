@@ -238,6 +238,11 @@ p {
   color: var(--color-dark-beige);
 }
 
+.more__item h3:hover {
+  background-color: var(--color-dark-beige);
+  color: var(--color-white);
+}
+
 /* Best Item */
 .best__categories {
   margin: 30px;
@@ -328,4 +333,32 @@ p {
   line-height: 1.5em;
   font-size: 15px;
   margin: auto;
+}
+
+/* Licensee */
+#licensee {
+  background-color: var(--color-medium-beige);
+  width: 100%;
+  margin: auto;
+  padding: 24px 0;
+}
+
+.sns__icon {
+  font-size: var(--font-medium);
+  padding-bottom: 24px;
+  color: var(--color-brown);
+  cursor: pointer;
+}
+
+.sns__icon i {
+  padding: 0 24px;
+}
+
+.sns__icon i:hover {
+  color: var(--color-white);
+}
+
+#licensee p {
+  color: var(--color-white);
+  font-size: 14px;
 }
