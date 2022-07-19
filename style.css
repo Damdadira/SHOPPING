@@ -490,19 +490,24 @@ p {
     padding-top: 40px;
   }
 
+  .best__categories {
+    margin: 10px;
+    padding: 12px;
+  }
+
   .category__btn {
     margin: 0 2px;
-    padding: 8px 4px;
+    padding: 8px 8px;
     font-size: 13px;
   }
 
   #customer {
-    padding: 20px;
+    padding: 15px;
   }
 
   .customer__phone,
   .customer__bank {
-    padding: 0 14px;
+    padding: 0 12px;
   }
 
   .customer__phone h3 {
