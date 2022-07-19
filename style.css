@@ -93,6 +93,8 @@ p {
   display: flex;
   color: var(--color-dark-beige);
   background-color: transparent;
+  transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
@@ -107,11 +109,10 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0;
-  z-index: 1;
 }
 
 .navbar__logo {
-  padding-left: 12px;
+  padding-left: 14px;
 }
 
 .navbar__menu-right {
