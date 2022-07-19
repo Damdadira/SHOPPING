@@ -34,3 +34,17 @@ document.addEventListener('scroll', () => {
     arrowDown.classList.remove('visible');
   }
 });
+
+//arrow 버튼 이동
+arrowUp.addEventListener('click', () => {
+  scrollIntoView('#home');
+});
+
+arrowDown.addEventListener('click', () => {
+  scrollIntoView('#licensee');
+});
+
+function scrollIntoView(selector) {
+  const scrollTo = document.querySelector(selector);
+  scrollTo.scrollIntoView({ behavior: 'smooth' });
+}
