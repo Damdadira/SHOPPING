@@ -48,3 +48,34 @@ function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({ behavior: 'smooth' });
 }
+
+//Best Item
+const bestBtnContainer = document.querySelector('.best__categories');
+const bestContainer = document.querySelector('.best__contents');
+const bestItems = document.querySelectorAll('.best__item');
+bestBtnContainer.addEventListener('click', (e) => {
+  const filter = e.target.dataset.filter;
+  console.log(filter);
+  if (filter == null) {
+    return;
+  }
+
+  const active = document.querySelector('.category__btn.selected');
+  console.log(active);
+  if (active != null) {
+    active.classList.remove('selected');
+  }
+  e.target.classList.add('selected');
+
+  bestContainer.classList.add('anim-out');
+  setTimeout(() => {
+    bestItems.forEach((item) => {
+      if (filter === item.dataset.type) {
+        item.classList.remove('invisible');
+      } else {
+        item.classList.add('invisible');
+      }
+    });
+    bestContainer.classList.remove('anim-out');
+  }, 300);
+});
