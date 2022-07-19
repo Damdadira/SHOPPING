@@ -19,3 +19,18 @@ const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
 navbarToggleBtn.addEventListener('click', () => {
   navbarMenu.classList.toggle('open');
 });
+
+//스크롤 내리면 arrow 버튼이 보이도록
+const home = document.querySelector('.home__container');
+const homeHeight = home.getBoundingClientRect().height;
+const arrowUp = document.querySelector('.arrow__up');
+const arrowDown = document.querySelector('.arrow__down');
+document.addEventListener('scroll', () => {
+  if (window.scrollY > homeHeight / 2) {
+    arrowUp.classList.add('visible');
+    arrowDown.classList.add('visible');
+  } else {
+    arrowUp.classList.remove('visible');
+    arrowDown.classList.remove('visible');
+  }
+});
