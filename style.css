@@ -511,7 +511,7 @@ p {
 
   .category__btn {
     margin: 0 2px;
-    padding: 8px 8px;
+    padding: 9px 9px;
     font-size: 13px;
   }
 
@@ -522,8 +522,8 @@ p {
   }
 
   #customer {
-    padding: 15px 0;
-    justify-content: space-between;
+    padding: 20px 0;
+    justify-content: space-around;
   }
 
   .customer__phone,
@@ -543,7 +543,7 @@ p {
 
   .customer__phone p,
   .customer__bank p {
-    font-size: 9.5px;
+    font-size: 11px;
   }
 
   #licensee {
