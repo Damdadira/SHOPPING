@@ -508,7 +508,7 @@ p {
 
   .customer__phone,
   .customer__bank {
-    padding: 0 8px;
+    padding: 0 4px;
   }
 
   .customer__phone h3 {
@@ -523,7 +523,7 @@ p {
 
   .customer__phone p,
   .customer__bank p {
-    font-size: 10px;
+    font-size: 9.5px;
   }
 
   #licensee {
