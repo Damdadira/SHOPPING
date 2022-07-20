@@ -490,6 +490,20 @@ p {
     padding-top: 40px;
   }
 
+  .new__item__images {
+    padding-top: 24px;
+  }
+
+  .new__item__image {
+    padding: 0 7px;
+  }
+
+  .n_i_i {
+    padding: 8px 0;
+    width: 150px;
+    height: 210px;
+  }
+
   .best__categories {
     margin: 4px;
     padding: 20px 4px;
@@ -499,6 +513,12 @@ p {
     margin: 0 2px;
     padding: 8px 8px;
     font-size: 13px;
+  }
+
+  .best__item__image {
+    padding: 8px 6px;
+    width: 150px;
+    height: 210px;
   }
 
   #customer {
