@@ -503,12 +503,12 @@ p {
 
   #customer {
     padding: 15px 0;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .customer__phone,
   .customer__bank {
-    padding: 0 4px;
+    padding: 0;
   }
 
   .customer__phone h3 {
