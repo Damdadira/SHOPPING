@@ -502,17 +502,17 @@ p {
   }
 
   #customer {
-    padding: 15px;
+    padding: 15px 0;
   }
 
   .customer__phone,
   .customer__bank {
-    padding: 0 6px;
+    padding: 0 8px;
   }
 
   .customer__phone h3 {
     padding: 8px 0;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .customer__phone i,
@@ -522,7 +522,7 @@ p {
 
   .customer__phone p,
   .customer__bank p {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   #licensee {
