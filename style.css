@@ -503,6 +503,7 @@ p {
 
   #customer {
     padding: 15px 0;
+    justify-content: space-around;
   }
 
   .customer__phone,
@@ -517,12 +518,12 @@ p {
 
   .customer__phone i,
   .customer__bank i {
-    font-size: 25px;
+    font-size: 27px;
   }
 
   .customer__phone p,
   .customer__bank p {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   #licensee {
