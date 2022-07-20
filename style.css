@@ -491,8 +491,8 @@ p {
   }
 
   .best__categories {
-    margin: 10px;
-    padding: 12px;
+    margin: 4px;
+    padding: 20px 4px;
   }
 
   .category__btn {
@@ -507,7 +507,7 @@ p {
 
   .customer__phone,
   .customer__bank {
-    padding: 0 12px;
+    padding: 0 8px;
   }
 
   .customer__phone h3 {
